@@ -19,7 +19,7 @@ const defaultMetadata: PageMetadata = {
   author: 'Daniil Baunov',
   keywords: ['Angular', 'meta tags', 'Angular Universal'],
   type: 'website',
-}
+};
 
 @Injectable()
 export class MetadataService {
@@ -59,6 +59,6 @@ export class MetadataService {
       { property: 'og:type', content: metadata.type },
 
       { property: 'og:image', content: `${this.hostUrl}${metadata.imageRelativeUrl}`}
-    ]
+    ];
   }
 }
