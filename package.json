@@ -24,6 +24,7 @@
     "@angular/platform-browser-dynamic": "~13.2.4",
     "@angular/platform-server": "~13.2.4",
     "@angular/router": "~13.2.4",
+    "@angular/service-worker": "~13.2.4",
     "@nguniversal/express-engine": "~13.0.2",
     "express": "^4.17.3",
     "isbot": "^3.0.3",
